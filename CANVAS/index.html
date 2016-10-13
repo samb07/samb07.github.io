@@ -16,12 +16,16 @@
   <script>
   var canvas = document.querySelector("canvas");
 canvas.width = 400;
-canvas.height = 80;
+canvas.height = 180;
 var ctx = canvas.getContext("2d");
 ctx.font = "bold 30px Arial";
-ctx.fillStyle = "goldenrod";
+ctx.fillStyle = "red";
 ctx.fillText("Hello World! - Canvas",10,60);
+ctx.rect(30,30,30,30);
+ctx.stroke();
   </script>
+  
+  
   
   
   </body>
